@@ -102,7 +102,7 @@ int main(void)
 
 	GLSLProgram program;
 	program.compileShader("bin/res/shader1.vert");
-	program.compileShader("bin/res/shader1.frag");	
+	program.compileShader("bin/res/shader2.frag");	
 	program.link();
 	program.validate();
 	program.use();
